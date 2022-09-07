@@ -1,0 +1,31 @@
+.navbar.navbar-expand-lg.navbar-dark{
+    background-color: #191921;
+}
+
+.fa-brands.fa-linkedin.fa-xl{
+    color: #fff;
+}
+
+.fa-brands.fa-linkedin.fa-xl:hover{
+    color: #6a78c2;
+}
+.fa-brands.fa-github.fa-xl{
+    color: #fff;
+}
+
+.fa-brands.fa-github.fa-xl:hover{
+    color: #6a78c2;
+}
+
+.fa-solid.fa-user.fa-xl{
+    color: #fff;
+}
+
+.fa-solid.fa-user.fa-xl:hover{
+    color: #6a78c2;
+}
+
+.list-group-item{
+    --bs-list-group-bg: transparent;
+    color: #fff;
+}
