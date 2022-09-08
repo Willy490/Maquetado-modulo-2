@@ -1,3 +1,14 @@
+
+body{
+    background-image: url(./img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+
 .navbar.navbar-expand-lg.navbar-dark{
     background-color: #191921;
 }
@@ -25,7 +36,21 @@
     color: #6a78c2;
 }
 
+.fa-solid.fa-user-lock.fa-xl{
+    color: #fff;
+}
+
+.fa-solid.fa-user-lock.fa-xl:hover{
+    color: #6a78c2;
+}
+
 .list-group-item{
     --bs-list-group-bg: transparent;
     color: #fff;
 }
+
+section.about{
+    margin-top: 10rem;
+}
+
+
