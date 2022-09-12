@@ -1,13 +1,28 @@
-
 body{
-    background-image: url(./img/fondo.jpg);
+    background: #2b5876;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    padding-top: 100px;
 }
 
+*{
+    font-family: "Rubik", sans-serif;
+}
+
+li.list-group-item{
+    border:none;
+}
+
+
+
+.navbar{
+    background: #180f30;
+}
 
 .navbar.navbar-expand-lg.navbar-dark{
     background-color: #191921;
@@ -18,14 +33,18 @@ body{
 }
 
 .fa-brands.fa-linkedin.fa-xl:hover{
-    color: #6a78c2;
+    color: #ff00cc;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .fa-brands.fa-github.fa-xl{
     color: #fff;
 }
 
 .fa-brands.fa-github.fa-xl:hover{
-    color: #6a78c2;
+    color: #ff00cc;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .fa-solid.fa-user.fa-xl{
@@ -33,7 +52,9 @@ body{
 }
 
 .fa-solid.fa-user.fa-xl:hover{
-    color: #6a78c2;
+    color: #ff00cc;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .fa-solid.fa-user-lock.fa-xl{
@@ -41,18 +62,309 @@ body{
 }
 
 .fa-solid.fa-user-lock.fa-xl:hover{
-    color: #6a78c2;
+    color: #ff00cc;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .list-group-item{
     --bs-list-group-bg: transparent;
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
     color: #fff;
 }
 
 section.about{
-    margin-top: 10rem;
+    margin-top: 1rem;
 }
 
 .col{
     color: #fff;
+}
+
+section.panel{
+    margin-top: 200px;
+}
+
+section.perfil{
+    padding-top: 10rem;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./img/banner6.jpg);
+    margin-bottom: 80px;
+}
+
+.banner-content{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-content h1{
+    font-size: 100px;
+    font-family: "Montserrat",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 3px 8px #191921;
+}
+
+.banner-content h2{
+    font-family: "Montserrat",'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 3px 4px #191921;
+    margin-top: -20px;
+}
+
+.texto-sobremi{
+    font-family: "Dosis",ui-monospace,"SFMono-Regular", "Menlo", Monaco, Consolas, Liberation Mono, Courier New ,monospace;
+    color: rgba(255, 255, 255, 0.753);
+    text-shadow: 3px 3px 10px #191921;
+    margin-bottom: 30px;
+}
+
+.texto-sobremi-info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(255, 255, 255, 0.685);
+    text-shadow: 3px 3px 14px #191921;
+    margin-bottom: 310px;
+}
+
+.perfil-name{
+    color: rgba(255, 255, 255, 0.685);
+    text-shadow: 3px 3px 15px #191921;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.contenedor-xp{
+    display: flex;
+    min-height: 92vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    
+}
+
+
+.experiencia-img{
+    width: 300px;
+    margin: 20px;
+    
+}
+
+
+/*educacion*/
+.contenedor-edu{
+    display: flex;
+    min-height: 92vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    
+}
+
+
+.edu-primaria{
+    border-radius: 20px;
+    height: 350px;
+    margin-right: 20px;
+    background: #ff00cc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #333399, #c300ffd8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #333399, #c300ffd8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.edu-secundaria{
+    border-radius: 20px;
+    height: 350px;
+    margin-left: 20px;
+    background: #ff00cc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #333399, #c300ffd8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #333399, #c300ffd8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.edu-argprograma{
+    height: 350px;
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #c300ffd8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #c300ffd8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 10px;
+}
+
+
+
+/*SKILL*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+
+
+.skills_section{
+    width: 100%;
+    height: 100vh;
+    padding: 0px 13%;
+    background-color: rgba(0, 0, 0, 0.082);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills_head{
+    width: 100%;
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.685);
+}
+.skills_head h2{
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+.skills_head h2 span{
+    color: #ff00cc;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.skills_main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+    color: rgba(255, 255, 255, 0.685);
+}
+.skills_main .skill_bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+}
+.skill_bar .info p:nth-child(2){
+    font-weight: 500;
+}
+.skill_bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+.skill_bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: #ff00cc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+
+
+
+
+    border-radius: 25px;
+}
+.skill_bar .bar .html{
+    width: 80%;
+    animation: html 2s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+
+.skill_bar .bar .css{
+    width: 50%;
+    animation: css 2s;
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }100%{
+        width: 50%;
+    }
+}
+.skill_bar .bar .bootstrap5{
+    width: 35%;
+    animation: sass 2s;
+}
+@keyframes bootstrap5 {
+    0%{
+        width: 0%;
+    }100%{
+        width: 35%;
+    }
+}
+.skill_bar .bar .js{
+    width: 25%;
+    animation: js 2s;
+}
+@keyframes js {
+    0%{
+        width: 0%;
+    }100%{
+        width: 25%;
+    }
+}
+.skill_bar .bar .react{
+    width: 20%;
+    animation: react 2s;
+}
+@keyframes react {
+    0%{
+        width: 0%;
+    }100%{
+        width: 20%;
+    }
+}
+.skill_bar .bar .node{
+    width: 25%;
+    animation: node 2s;
+}
+@keyframes node {
+    0%{
+        width: 0%;
+    }100%{
+        width: 25%;
+    }
+}
+.skill_bar .bar .express{
+    width: 10%;
+    animation: java 2s;
+}
+@keyframes java {
+    0%{
+        width: 0%;
+    }100%{
+        width: 10%;
+    }
+}
+.skill_bar .bar .otro{
+    width: 1%;
+    animation: otro 2s;
+}
+@keyframes otro {
+    0%{
+        width: 0%;
+    }100%{
+        width: 1%;
+    }
 }
