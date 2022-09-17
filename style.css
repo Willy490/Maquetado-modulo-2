@@ -1,9 +1,7 @@
 body{
-    background: #2b5876;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+    background: #2b5876;
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+    background: linear-gradient(to right, #4e4376, #2b5876);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -18,8 +16,7 @@ li.list-group-item{
     border:none;
 }
 
-
-
+/*BARRA DE NAVEGACION*/
 .navbar{
     background: #180f30;
 }
@@ -89,6 +86,7 @@ section.perfil{
     padding-top: 10rem;
 }
 
+/*Banner*/
 .banner{
     position: relative;
     width: 100%;
@@ -110,6 +108,11 @@ section.perfil{
     justify-content: center;
     align-items: center;
 
+}
+
+.milogo:hover{
+    background-color: #110041;
+    opacity: .6;
 }
 
 .banner-content h1{
@@ -145,25 +148,34 @@ section.perfil{
     margin-top: 20px;
 }
 
-.contenedor-xp{
+/*EXPERIENCIA*/
+.experiencia-e{
     display: flex;
     min-height: 92vh;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 3rem;
     padding-bottom: 2rem;
-    
+    background: rgba(33, 23, 78, 0.151);
+}
+
+.experiencia-e_{
+    border-radius: 20px;
+    height: 350px;
+    margin-right: 20px;
+    background-color: rgb(212, 223, 233)
 }
 
 
-.experiencia-img{
-    width: 300px;
-    margin: 20px;
-    
-}
 
 
-/*educacion*/
+
+
+
+
+
+/*EDUCACIÓN*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
 .contenedor-edu{
     display: flex;
     min-height: 92vh;
@@ -171,41 +183,103 @@ section.perfil{
     justify-content: center;
     padding-top: 3rem;
     padding-bottom: 2rem;
-    
 }
 
+.contenedor-edu .edu-titulo{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.685);
+}
 
+/*primaria*/
 .edu-primaria{
     border-radius: 20px;
     height: 350px;
     margin-right: 20px;
-    background: #ff00cc;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #333399, #c300ffd8);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #333399, #c300ffd8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2b5876;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #362c58, #2f6488);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #362c58, #2f6488); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.edu-primaria h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.edu-primaria p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.edu-primaria img{
+    width: 120px;
+    filter: drop-shadow(1px 1px 1px rgb(121, 118, 118));
+}
+
+/*secundaria*/
 .edu-secundaria{
     border-radius: 20px;
     height: 350px;
-    margin-left: 20px;
-    background: #ff00cc;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #333399, #c300ffd8);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #333399, #c300ffd8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2b5876;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #362c58, #2f6488);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2f6488, #362c58); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+
+.edu-secundaria h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.edu-secundaria p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.edu-secundaria p span{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color:#ff00cc;
+}
+
+.edu-secundaria img{
+    width: 100px;
+    filter: drop-shadow(1px 1px 1px rgb(121, 118, 118));
+}
+
+/*ARGPrograma*/
 .edu-argprograma{
     height: 350px;
-    background: #ff00cc;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #c300ffd8);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #c300ffd8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #362c58, #2f6488, #362c58);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #362c58, #2f6488, #362c58); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     border-radius: 10px;
 }
 
+.edu-argprograma h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.685);
+}
 
+.edu-argprograma p span{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color:#ff00cc;
+}
+
+.edu-argprograma-img img{
+    margin-top: 30px;
+    padding-top: 90px;
+    width: 78px;
+    padding: 8px
+}
 
 /*SKILL*/
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
 
 
@@ -367,4 +441,90 @@ background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, F
     }100%{
         width: 1%;
     }
+}
+
+
+
+/*PROYECTOS*/
+.contenedor-proyectos{
+    display: flex;
+    min-height: 92vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem; 
+}
+
+.proyectostitulo{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.proyecto1{
+    border-radius: 20px;
+    height: 350px;
+    margin-right: 20px;
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #362c58, #2f6488);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #362c58, #2f6488); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.proyecto1 h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+
+.proyecto2{
+    border-radius: 20px;
+    height: 350px;
+    margin-left: 20px;
+    background: #2b5876;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #362c58, #2f6488);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2f6488, #362c58); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.proyecto2 h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+
+
+.proyecto3{
+    height: 350px;
+    background: #2b5876;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #362c58, #2f6488, #362c58);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #362c58, #2f6488, #362c58); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 10px;
+}
+
+.proyecto3 h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+
+/*FOOTER*/
+.container-footer{
+    background: #180f30;
+
+}
+
+.container-footer h2{
+    font-size: 17px;
+    padding: 4px 0px 0px;
+    margin: 0;
+}
+
+.container-footer h2 span{
+    padding: 0px 0px 0px;
+    color: #d400ff;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: underline;
 }
